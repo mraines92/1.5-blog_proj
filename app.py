@@ -15,8 +15,18 @@ def index():
 
     # 2. Create a new list that will hold all the html for your blog posts
 
+    html_list = []
+
     # 3. Open the csv file and read it using the CSV library. This will give you a list of rows.
     # See: https://docs.python.org/3/library/csv.html#csv.DictReader
+
+    with open('data.csv', 'r') as csv_file:
+
+        blog_posts = csv.DictReader(csv_file)
+
+        for post in blog_posts:
+
+            print()
 
     # 4. Loop over each row in the CSV. Each row is a blog post.
 
