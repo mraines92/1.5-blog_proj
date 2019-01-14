@@ -6,3 +6,19 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.nav-list{
+    display: inline-block;
+
+}
+
+.nav-list li{
+    padding-left: 40px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+}
+

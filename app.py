@@ -24,15 +24,18 @@ def index():
 
         blog_post_html = csv.DictReader(csv_file)
 
+    # 4. Loop over each row in the CSV. Each row is a blog post.
+
         for post in blog_post_html:
 
 
             print(post)
 
-    # 4. Loop over each row in the CSV. Each row is a blog post.
-
 
     # 5. Take post_html and replace {{title}} {{body}} {{author}} with the data in each blog post csv row
+
+        print(post_html.replace({{title}}, blog_post_html)
+
 
     # 6. Add the post_html to the new list you created above.
 
